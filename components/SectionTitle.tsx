@@ -16,7 +16,7 @@ function SectionTitle({ section, action }: sectionTitleProp) {
         <div className={` ${fontRaleway.className} bg-primary-background w-screen py-8`}>
             <div>
                 <div className='flex items-center justify-between px-3 sm:px-10 '>
-                    <h1 className='text-2xl font-medium text-gray-800'>{section}</h1>
+                    <h1 className='text-3xl font-medium text-gray-800'>{section}</h1>
                     <button className=' px-12 py-4 bg-secondary-background rounded-xl  text-primary-background'>{action}</button>
                 </div>
 

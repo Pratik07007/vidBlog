@@ -32,7 +32,7 @@ function BlogCard({ size }: BlogCardProps) {
                 width={300}
                 height={300}
             />
-            <div className={`${isLarge ? 'w-full sm:w-1/2 sm:text-3xl' : 'w-full'} flex flex-col gap-3 items-start justify-center`}>
+            <div className={`${isLarge ? 'w-full sm:w-1/2 sm:text-xl' : 'w-full'} flex flex-col gap-3 items-start justify-center`}>
                 <div className='flex items-start gap-3'>
                     <span className='text-text-primary text-[13px] font-thin'>Pratik Dhimal</span>
                     <span className='text-text-secondary-light text-[13px] font-thin'>13 March, 2024</span>

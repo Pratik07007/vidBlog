@@ -5,7 +5,7 @@ import SectionTitle from './SectionTitle';
 export default function RecentPost() {
 
     return (
-        <div className='h-[80vh] bg-primary-background w-screen'>
+        <div className='bg-primary-background w-screen'>
             <SectionTitle action='View All' section='Recent Posts' />
             <div className='flex flex-wrap items-center justify-center px-3 sm:px-10 sm:justify-between'>
                 <BlogCard />

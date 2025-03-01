@@ -12,6 +12,7 @@ import {
     SheetTitle,
     SheetTrigger,
 } from "@/components/ui/sheet"
+import Link from 'next/link';
 
 
 
@@ -23,10 +24,10 @@ const fontRaleway = Raleway({
 function NavBar() {
     return (
         <div className={` ${fontRaleway.className} px-4 sm:px-25 h-16 bg-primary-background flex justify-between`}>
-            <div className=' cursor-pointer flex items-center justify-center gap-4'>
+            <Link className=' cursor-pointer flex items-center justify-center gap-4' href={"/"}>
                 <Image src={"/logo.png"} alt={'hello'} width={30} height={30}></Image>
                 <span className='text-lg font-extrabold'>VidBlog</span>
-            </div>
+            </Link>
             <div className='hidden sm:flex items-center justify-center gap-10 text-4'>
                 <span className='cursor-pointer' >Blog</span>
                 <span className='cursor-pointer' >About</span>

@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Raleway } from "next/font/google";
+
 const fontRaleway = Raleway({
     subsets: ["latin"],
     weight: "400",
