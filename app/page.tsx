@@ -1,7 +1,13 @@
 import FeaturedPost from "@/components/FeaturedPost";
+import PopularPost from "@/components/PopularPost";
+import RecentPost from "@/components/RecentPost";
 
 export default function Home() {
   return (
-    <FeaturedPost />
+    <div>
+      <FeaturedPost />
+      <PopularPost />
+      <RecentPost />
+    </div>
   )
 }
