@@ -44,7 +44,7 @@ function NavBar() {
                             <SheetTitle className=' h-18 px-4 py-2 bg-secondary-background text-primary-background transition duration-200 hover:bg-purple-600 hover:text-gray-300 cursor-pointer rounded-xl'>Contact Us</SheetTitle>
                             <div className='flex h-18 items-center gap-5 justify-start px-4 py-2 bg-secondary-background text-primary-background transition duration-200 hover:bg-purple-600 hover:text-gray-300 cursor-pointer rounded-xl '>
                                 <input className='outline-none border-[1px] px-3 py-2 placeholder:text-black' type="text" placeholder='Search...' />
-                                <SheetTitle className=''><Search size={30} /></SheetTitle>
+                                <SheetTitle className=''><Search size={20} /></SheetTitle>
                             </div>
                         </SheetHeader>
                     </SheetContent>
